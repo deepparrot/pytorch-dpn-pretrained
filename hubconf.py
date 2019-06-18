@@ -25,7 +25,7 @@ def benchmark():
         normalize,
     ])
     imagenet.benchmark(
-        model=dpn68(pretrained=True)
+        model=dpn68(pretrained=True),
         paper_model_name='DPN-68',
         paper_arxiv_id='1707.01629',
         paper_pwc_id='dual-path-networks',
