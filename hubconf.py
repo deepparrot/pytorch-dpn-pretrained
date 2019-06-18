@@ -6,7 +6,7 @@ hub_model = hub.load(
     'dpn92', # entrypoint
     pretrained=True) # kwargs for callable
 """
-dependencies = ['torch', 'math', 'torchvision', 'scipy']
+dependencies = ['torch', 'torchvision', 'scipy']
 
 from dpn import dpn68, dpn68b, dpn92, dpn98, dpn131, dpn107
 from sotabench.image_classification import imagenet
