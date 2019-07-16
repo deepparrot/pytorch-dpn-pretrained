@@ -13,7 +13,7 @@ input_transform = transforms.Compose([
 ])
 ImageNet.benchmark(
     model=dpn131(pretrained=True),
-    paper_model_name='DPN-131',
+    paper_model_name='DPN-131 x224',
     paper_arxiv_id='1707.01629',
     paper_pwc_id='dual-path-networks',
     input_transform=input_transform,
