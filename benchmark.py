@@ -1,5 +1,5 @@
 from dpn import dpn68, dpn68b, dpn92, dpn98, dpn131, dpn107
-from sotabench.image_classification import ImageNet
+from torchbench.image_classification import ImageNet
 import torchvision.transforms as transforms
 import PIL
 
